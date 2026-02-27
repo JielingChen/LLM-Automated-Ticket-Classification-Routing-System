@@ -18,11 +18,11 @@ This project adds an **AI triage layer** that re-evaluates the request in real t
 ## 10-second architecture
 
 ```mermaid
-flowchart LR
-    A[Resident submits request<br/>Priority + Category + Comment] --> B[Portal sends request payload<br/>timestamp + resident labels + comment]
+flowchart TD
+    A[Resident submits request<br/>Priority + Category + Comment] --> B[Portal sends request payload<br/>timestamp + comment]
     B --> C[Gemini Re-Triage Engine]
-    C --> C1[Re-evaluate Priority<br/>enum constrained]
-    C --> C2[Re-evaluate Service Category<br/>enum constrained]
+    C --> C1[Re-evaluate Priority]
+    C --> C2[Re-evaluate Service Category]
     C --> C3[Generate resident message<br/>warm, brief, low-risk]
     C1 --> D[Updated routing decision]
     C2 --> D

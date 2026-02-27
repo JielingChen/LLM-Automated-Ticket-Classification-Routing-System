@@ -17,8 +17,8 @@ from google import genai
 from src.prompts import build_system_instruction
 from src.schemas import make_response_schema, BatchResponse, LabeledRequest
 
-st.set_page_config(page_title="AI Service Request Re-Triage Demo", layout="centered")
-st.title("AI Service Request Re-Triage Demo")
+st.set_page_config(page_title="AI Maintenance Ticket Assistant Demo", layout="centered")
+st.title("AI Maintenance Ticket Assistant Demo")
 st.info(
     "Residents pick urgency/category, then a constrained LLM second opinion to re-triage for routing accuracy and generates a safe, reassuring resident message."
 )
