@@ -11,9 +11,15 @@ In practice, those choices are often wrong:
 
 This project adds an **AI triage layer** that re-evaluates the request in real time and returns:
 
-- **AI Priority** (restricted to official portal labels)
+- **AI Priority** (restricted to official portal labels: routine, urgent, emergency)
 - **AI Service Category** (restricted to official category list)
 - **Resident-facing guidance** (“While we’re on our way...”) — warm, short, safety-focused, and low-risk
+
+## Example
+- Resident Label: 03-Routine | Category: Storm Damage
+- Resident Comment: "The downed trees on boxwood are a safety concern for the kids walking to the bus... children are walking under the trees branches that were broken from the snow. If this can be cleaned up asap."
+- AI Re-Triage: 02-Urgent | Category: Grounds and Landscaping
+- AI Message: _"We understand your concern; please advise children to avoid the area until it is safely cleared."_
 
 ## Key Features
 - **Semantic Re-Classification:** Moves beyond keyword matching to understand the intent and severity of the resident's text.
