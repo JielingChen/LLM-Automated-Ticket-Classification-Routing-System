@@ -16,9 +16,9 @@ This project adds an **AI triage layer** that re-evaluates the request in real t
 - **Resident-facing guidance** (“While we’re on our way...”) — warm, short, safety-focused, and low-risk
 
 ## Example
-- Resident Label: 03-Routine | Category: Storm Damage
+- Resident Label: **03-Routine** | Category: **Storm Damage**
 - Resident Comment: "The downed trees on boxwood are a safety concern for the kids walking to the bus... children are walking under the trees branches that were broken from the snow. If this can be cleaned up asap."
-- AI Re-Triage: 02-Urgent | Category: Grounds and Landscaping
+- AI Re-Triage: **02-Urgent** | Category: **Grounds and Landscaping**
 - AI Message: _"We understand your concern; please advise children to avoid the area until it is safely cleared."_
 
 ## Key Features
