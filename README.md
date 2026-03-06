@@ -1,5 +1,5 @@
 # AI Maintenance Ticket Assistant (Gemini)
-### __*An LLM-powered triage layer for real-time request classification and resident guidance. [(click here for demo)]([https://jieling-chen-ai-maintenance-ticket-assistant.streamlit.app]*__
+### __*An LLM-powered triage layer for real-time request classification and resident guidance. [(click here for demo)](https://jieling-chen-ai-maintenance-ticket-assistant.streamlit.app)*__
 ## What this project does
 
 Residents submit maintenance requests through a portal and choose a **priority** and **service category**.  
